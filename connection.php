@@ -1,7 +1,7 @@
 <?php
 $server = 'sql5.freesqldatabase.com';
 $username = 'sql5706169';
-$password = 'jdvXSsNUgl';
+$password = 'sathin123';
 $database = 'sql5706169';
 
 // Check if any POST data is set (this condition might not be necessary for a welcome page)
