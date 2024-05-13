@@ -1,8 +1,8 @@
 <?php
-$server = 'sql5.freesqldatabase.com';
-$username = 'sql5706169';
-$password = 'sathin123';
-$database = 'sql5706169';
+$server = 'localhost:3307';
+$username = 'root';
+$password = '';
+$database = 'student_management_system';
 
 // Check if any POST data is set (this condition might not be necessary for a welcome page)
 if (isset($_POST)) {
