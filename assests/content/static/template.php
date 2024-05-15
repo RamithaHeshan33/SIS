@@ -50,7 +50,7 @@ if(isset($_SESSION['username'])) {
     
     <div class="top-bar">
         <!-- Logout button -->
-        <a href="../../../index.php">LOGOUT</a>
+        <a href="index.php">LOGOUT</a>
     </div>
 
     <!-- =========================================================== top-bar finish =========================================================== -->
@@ -79,7 +79,7 @@ if(isset($_SESSION['username'])) {
 
             <!-- Profile Category -->
             <div class="item">
-                <a class="sub-btn"><i class="far fa-id-card"></i>Student 
+                <a class="sub-btn"><i class="far fa-id-card"></i>Student </a>
                     <!-- Dropdown -->
                 </a>
                 <div class="sub-menu">
@@ -90,7 +90,7 @@ if(isset($_SESSION['username'])) {
             
             <!-- Payment Category -->
             <div class="item">
-                <a class="sub-btn"><i class="fas fa-hand-holding-usd"></i>Student Payments
+                <a class="sub-btn"><i class="fas fa-hand-holding-usd"></i>Student Payments</a>
                     <!-- Dropdown -->
                 </a>
                 <div class="sub-menu">
@@ -102,7 +102,7 @@ if(isset($_SESSION['username'])) {
 
             <!-- Library Category -->
             <div class="item">
-                <a class="sub-btn"><i class="fa fa-book"></i>Library Books
+                <a class="sub-btn"><i class="fa fa-book"></i>Library Books</a>
                     <!-- Dropdown -->
                 </a>
                 <div class="sub-menu">
@@ -114,7 +114,7 @@ if(isset($_SESSION['username'])) {
 
             <!-- Graduation Category -->
             <div class="item">
-                <a class="sub-btn"><i class="fas fa-user-graduate"></i>Graduation
+                <a class="sub-btn"><i class="fas fa-user-graduate"></i>Graduation</a>
                     <!-- Dropdown -->
                 </a>
                 <div class="sub-menu">
@@ -127,7 +127,7 @@ if(isset($_SESSION['username'])) {
             
             <!-- Membership Category -->
             <div class="item">
-                <a class="sub-btn"><i class="fas fa-award"></i>Memberships
+                <a class="sub-btn"><i class="fas fa-award"></i>Memberships</a>
                     <!-- Dropdown -->
                 </a>
                 <div class="sub-menu">
@@ -139,7 +139,7 @@ if(isset($_SESSION['username'])) {
 
             <!-- Exam Category -->
             <div class="item">
-                <a class="sub-btn"><i class="far fa-file-alt"></i>Exams
+                <a class="sub-btn"><i class="far fa-file-alt"></i>Exams</a>
                     <!-- Dropdown -->
                 </a>
                 <div class="sub-menu">
@@ -152,7 +152,7 @@ if(isset($_SESSION['username'])) {
 
             <!-- Assignments Category -->
             <div class="item">
-                <a class="sub-btn"><i class="fas fa-swatchbook"></i>Assignments
+                <a class="sub-btn"><i class="fas fa-swatchbook"></i>Assignments</a>
                     <!-- Dropdown -->
                 </a>
                 <div class="sub-menu">
@@ -167,7 +167,7 @@ if(isset($_SESSION['username'])) {
 
             <!-- Class Schedule Category -->
             <div class="item">
-                <a class="sub-btn"><i class="far fa-calendar-alt"></i>Class Schedule
+                <a class="sub-btn"><i class="far fa-calendar-alt"></i>Class Schedule</a>
                     <!-- Dropdown -->
                 </a>
                 <div class="sub-menu">
@@ -178,7 +178,7 @@ if(isset($_SESSION['username'])) {
 
             <!-- Results Category -->
             <div class="item">
-                <a class="sub-btn"><i class="fa fa-trophy"></i>Results
+                <a class="sub-btn"><i class="fa fa-trophy"></i>Results</a>
                     <!-- Dropdown -->
                 </a>
                 <div class="sub-menu">
@@ -191,17 +191,17 @@ if(isset($_SESSION['username'])) {
 
             <!-- Course Modules -->
             <div class="item">
-                <a href=""><i class="fas fa-info-circle"></i>Course Modules </a>
+                <a href=""><i class="fas fa-info-circle"></i>Course Modules</a>
             </div>
             
             <!-- Course Materials -->
             <div class="item">
-                <a href=""><i class="fas fa-book-reader"></i>Course Materials </a>
+                <a href=""><i class="fas fa-book-reader"></i>Course Materials</a>
             </div>
 
             <!-- Penalty -->
             <div class="item">
-                <a href=""><i class="fa fa-dollar"></i>Penalty </a>
+                <a href=""><i class="fa fa-dollar"></i>Penalty</a>
             </div>
 
             <!-- Course Guidlines Category -->
@@ -218,27 +218,27 @@ if(isset($_SESSION['username'])) {
 
             <!-- Notice Board -->
             <div class="item">
-                <a href=""><i class="far fa-sticky-note"></i>Notice Board </a>
+                <a href=""><i class="far fa-sticky-note"></i>Notice Board</a>
             </div>
 
             <!-- Message -->
             <div class="item">
-                <a href=""><i class="fas fa-envelope"></i>Message </a>
+                <a href=""><i class="fas fa-envelope"></i>Message</a>
             </div>
 
             <!-- Call Center -->
             <div class="item">
-                <a href=""><i class="fas fa-phone-alt"></i>Call Center </a>
+                <a href=""><i class="fas fa-phone-alt"></i>Call Center</a>
             </div>
 
             <!-- Lecture Evaluation -->
             <div class="item">
-                <a href=""><i class="fas fa-chart-line"></i>Lecture Evaluation </a>
+                <a href=""><i class="fas fa-chart-line"></i>Lecture Evaluation</a>
             </div>
 
             <!-- Vacancies -->
             <div class="item">
-                <a href=""><i class="fas fa-user-plus"></i>Vacancies </a>
+                <a href=""><i class="fas fa-user-plus"></i>Vacancies</a>
             </div>
 
 

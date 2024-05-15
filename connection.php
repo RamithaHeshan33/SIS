@@ -1,8 +1,8 @@
 <?php
-$server = 'sql5.freesqldatabase.com';
-$username = 'sql5706169';
-$password = 'jdvXSsNUgl';
-$database = 'sql5706169';
+$server = 'localhost:3307';
+$username = 'root';
+$password = '';
+$database = 'student_management_system';
 
 //check
 // Check if any POST data is set (this condition might not be necessary for a welcome page)
@@ -19,7 +19,7 @@ if (isset($_POST)) {
         // For example, fetching user data from the database
     }
 } else {
-    //  // Handle the case where no POST data is set (if applicable)
+    // Handle the case where no POST data is set (if applicable)
     echo "No POST data received.";
 }
 ?>
