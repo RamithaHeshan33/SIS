@@ -5,4 +5,6 @@ if (extension_loaded('mysqli')) {
 } else {
     echo "mysqli extension is not installed or loaded.";
 }
+
+//testing 
 ?>
