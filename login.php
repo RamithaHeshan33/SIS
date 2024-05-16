@@ -20,20 +20,25 @@ if (isset($_POST['login'])) {
         exit;
     }
     else {
-        $sql = "SELECT * FROM `login_tbl` WHERE `username`='$username' AND `password`='$password'";
-        $result = mysqli_query($conn, $sql);
+        // Use prepared statements to prevent SQL injection
+        $stmt = $conn->prepare("SELECT * FROM `login_tbl` WHERE `username` = ?");
+        $stmt->bind_param("s", $username);
+        $stmt->execute();
+        $result = $stmt->get_result();
 
-        if (mysqli_num_rows($result) > 0) {
-            $row = mysqli_fetch_array($result);
-            $name = $row['name'];
+        if ($result->num_rows > 0) {
+            $row = $result->fetch_assoc();
             $storedUsername = $row['username'];
             $storedPassword = $row['password'];
 
-            if ($username == $storedUsername && $password == $storedPassword) {
-                $_SESSION['name'] = $name;
-                $_SESSION['username'] = $username;
-                // Don't store password in session
-                header('location: welcome.php');
+            // Use password_verify to check hashed password
+            if (password_verify($password, $storedPassword)) {
+                $_SESSION['name'] = $row['name'];
+                $_SESSION['username'] = $storedUsername;
+                header('Location: welcome.php');
+                exit;
+            } else {
+                echo "<script>alert('Invalid Username or Password'); window.location='index.php';</script>";
                 exit;
             }
         } else {
@@ -41,5 +46,5 @@ if (isset($_POST['login'])) {
             exit;
         }
     }
-
 }
+?>
